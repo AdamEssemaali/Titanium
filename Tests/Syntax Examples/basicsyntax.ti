@@ -102,5 +102,5 @@ func main() : int
 
 func println(var s: string) : void
 {
-	println!("frocio > " + s);
+	println!("hello " + s);
 }
