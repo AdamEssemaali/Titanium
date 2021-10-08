@@ -1,13 +1,3 @@
-func ciao(a: int): int {
-    return a
-}
-
 func main(): int {
-    var test: string = "stringa"; 
-    var ciao: bool = true;
-    tiWriteLine(test);
-    tiWriteLine(ciao);
-    
-
     return 0;
 }

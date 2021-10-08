@@ -6,7 +6,7 @@ from AST.variableNode import VariabileNode
 
 
 class TitaniumBuilder:
-    final_code = """#include \"..\\stdlib\\io.hpp\" \n #include <stdbool.h>\n"""
+    final_code = """#include \"stdlib\\io.hpp\" \n #include <stdbool.h>\n"""
     indent = 0
 
     def __init__(self, nodes) -> None:
@@ -68,4 +68,4 @@ class TitaniumBuilder:
 
 
 
-        open("CACHE/output.cpp", "w").write(self.final_code)
+        open("output.cpp", "w").write(self.final_code)

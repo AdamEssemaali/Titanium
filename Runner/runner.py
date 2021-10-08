@@ -7,5 +7,5 @@ class TitaniumRunner:
         self.output = output
     def compile(self):
         print("Compiling...")
-        subprocess.call(["g++", self.cfile, "-o", self.output])
+        subprocess.call(["c:\\MinGW\\bin\\g++.exe", self.cfile, "-o", self.output])
         print("Program compiled successfuly")
